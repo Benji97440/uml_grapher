@@ -16,11 +16,11 @@ public class UmlGraph {
         this.class_name = class_name;
     }
     public String as(GraphType graphType) {
-        List<Class> my_classList = null;
+        List<Class> my_classList = new ArrayList<Class>();
         for (Class class_n : class_name) {
             switch (graphType) {
                 case Mermaid:
-                    my_classList = new InternalGraphRepresentation(class_n).whats_your_relation();
+                    my_classList = new InternalGraphRepresentation(class_n).whats_your_relation(my_classList);
                     for (Class i : my_classList) {
                         types.add(new UmlType(i));
                     }

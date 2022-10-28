@@ -42,9 +42,9 @@
             <version>4.6.3</version>
         </dependency>
         <dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections-parent</artifactId>
-            <version>0.9.9-RC1</version>
+            <groupId>io.github.qsy7.java.dependencies</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.1.2</version>
             <type>pom</type>
         </dependency>
     </dependencies>

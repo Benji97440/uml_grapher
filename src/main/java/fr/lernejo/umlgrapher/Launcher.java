@@ -20,6 +20,5 @@ public class Launcher implements Runnable {
     public static void main(String... args) {
         int exitCode = new CommandLine(new Launcher()).execute(args);
         System.exit(exitCode);
-
     }
 }

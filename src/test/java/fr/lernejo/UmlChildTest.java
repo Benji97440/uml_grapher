@@ -5,10 +5,10 @@ import fr.lernejo.umlgrapher.UmlGraph;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class UmlParentTest {
+public class UmlChildTest {
     @Test
-    void empty_interface_with_relation_Parent() {
-        Class<?>[] user_class = {fr.lernejo.Living.Animal.Ant.class,fr.lernejo.Living.Animal.Cat.class,fr.lernejo.Living.Plant.Tree.Alder.class};
+    void empty_interface_with_relation_Child() {
+        Class<?>[] user_class = {fr.lernejo.Living.class};
         UmlGraph graph = new UmlGraph(user_class);
         String output = graph.as(GraphType.Mermaid);
 

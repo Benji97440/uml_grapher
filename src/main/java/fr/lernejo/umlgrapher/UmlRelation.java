@@ -24,6 +24,7 @@ public class UmlRelation {
                 }
                 relation +="\n";
                 liaisons.add(new MermaidLiaison(k,i.my_class(),relation));
+                //liaisons.add(new MermaidLiaison(k,i.my_class(),relation));
             }
        }
         return liaisons;

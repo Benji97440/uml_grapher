@@ -9,7 +9,8 @@ class SampleTest {
 
     @Test
     void add_2_and_2_should_return_4() {
-        int result = sample.op(Sample.Operation.ADD, 2, 2);
+        //int result = sample.op(Sample.Operation.ADD, 2, 2);
+        int result = sample.op(Sample.Operation.ADD,2,2);
 
         Assertions.assertThat(result)
             .as("Addition of 2 and 2")
